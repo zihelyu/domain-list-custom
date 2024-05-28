@@ -37,7 +37,7 @@ jobs:
         if: ${{ env.NeedToSync }}
         uses: actions/checkout@v4
         with:
-          repository: v2fly/domain-list-community
+          repository: zihelyu/domain-list-community
           path: domain-list-community
 
       - name: Append attribute rules
